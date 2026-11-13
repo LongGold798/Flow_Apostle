@@ -1,0 +1,27 @@
+{
+  "poll_seconds": {
+    "stocks": 8,
+    "board_prices": 25,
+    "board_money": 30,
+    "limits": 15
+  },
+  "max_fetch_seconds": 25,
+  "max_sample_gap_seconds": 60,
+  "windows": {
+    "15": 1,
+    "30": 1.3,
+    "60": 1.8,
+    "180": 2.6,
+    "300": 3.4
+  },
+  "cooldown_seconds": 90,
+  "volume_ratio": 3,
+  "volume_baseline_intervals": 12,
+  "min_window_amount": 500000,
+  "board_window_seconds": 60,
+  "board_change_points": 0.8,
+  "board_breadth_count": 5,
+  "board_money_window_seconds": 60,
+  "board_money_change_yuan": 30000000,
+  "disabled_events": []
+}
